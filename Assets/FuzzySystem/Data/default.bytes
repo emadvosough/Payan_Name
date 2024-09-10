@@ -1,0 +1,135 @@
+´ÕÔ4Vxê{
+    "fuzzifications": [
+        {
+            "_division": 20,
+            "_maxValue": 100,
+            "_guid": "24cfd95c-7cc8-4325-92be-d6f6b60d86e7",
+            "_name": "LoseCount",
+            "_value": 12.600000381469727,
+            "trapezoids": [
+                {
+                    "_guid": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+                    "_color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "Little",
+                    "_peakPointLeftValue": 0.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 0.0,
+                    "_footPointRightValue": 50.0
+                },
+                {
+                    "_guid": "80f86665-3b03-4af3-aa1a-c950c463e4f3",
+                    "_color": {
+                        "r": 0.6133798956871033,
+                        "g": 0.8545677661895752,
+                        "b": 0.8146531581878662,
+                        "a": 1.0
+                    },
+                    "_name": "Medium",
+                    "_peakPointLeftValue": 50.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 50.0,
+                    "_footPointRightValue": 80.0
+                },
+                {
+                    "_guid": "bb7e9c46-5499-4065-93ef-f75bbed5ee07",
+                    "_color": {
+                        "r": 0.0,
+                        "g": 1.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "Great",
+                    "_peakPointLeftValue": 80.0,
+                    "_footPointLeftValue": 50.0,
+                    "_peakPointRightValue": 100.0,
+                    "_footPointRightValue": 100.0
+                }
+            ]
+        }
+    ],
+    "_defuzzitication": {
+        "_division": 20,
+        "_maxValue": 100,
+        "_guid": "0f814b84-a3c5-44d7-bd39-b162ae3ab63f",
+        "_name": "MoveCount",
+        "_value": 0.0,
+        "trapezoids": [
+            {
+                "_guid": "949f005e-0aaa-4392-b493-2e1fc69356d3",
+                "_color": {
+                    "r": 1.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "_name": "Hard",
+                "_peakPointLeftValue": 0.0,
+                "_footPointLeftValue": -25.0,
+                "_peakPointRightValue": 0.0,
+                "_footPointRightValue": 25.0
+            },
+            {
+                "_guid": "71b41563-9319-4cae-a258-e25ea20a0ccf",
+                "_color": {
+                    "r": 0.23123612999916078,
+                    "g": 0.03414297476410866,
+                    "b": 0.2322244942188263,
+                    "a": 1.0
+                },
+                "_name": "Medium",
+                "_peakPointLeftValue": 50.0,
+                "_footPointLeftValue": 0.0,
+                "_peakPointRightValue": 50.0,
+                "_footPointRightValue": 100.0
+            },
+            {
+                "_guid": "04ae3bcd-f810-401b-8df0-daa03ef237f8",
+                "_color": {
+                    "r": 0.0,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "_name": "Easy",
+                "_peakPointLeftValue": 100.0,
+                "_footPointLeftValue": 75.0,
+                "_peakPointRightValue": 100.0,
+                "_footPointRightValue": 125.0
+            }
+        ],
+        "_subdivision": 36
+    },
+    "inferences": [
+        {
+            "_guid": "35ac76b0-8505-484b-818f-dca41e7bba87",
+            "_name": "",
+            "_leftSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_rightSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_outputGUID": "949f005e-0aaa-4392-b493-2e1fc69356d3",
+            "_op": 4
+        },
+        {
+            "_guid": "1fb54d1c-7290-45c9-83a5-ed169f44f59b",
+            "_name": "",
+            "_leftSideInputGUID": "80f86665-3b03-4af3-aa1a-c950c463e4f3",
+            "_rightSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_outputGUID": "71b41563-9319-4cae-a258-e25ea20a0ccf",
+            "_op": 4
+        },
+        {
+            "_guid": "121eed1a-bc7a-414d-ba35-8d79b200cc43",
+            "_name": "",
+            "_leftSideInputGUID": "bb7e9c46-5499-4065-93ef-f75bbed5ee07",
+            "_rightSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_outputGUID": "04ae3bcd-f810-401b-8df0-daa03ef237f8",
+            "_op": 4
+        }
+    ],
+    "_guid": "e464ddbf-d6f2-468c-a7d5-7e81a720865c",
+    "_name": "default"
+}
